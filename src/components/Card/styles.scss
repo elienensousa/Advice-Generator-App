@@ -11,8 +11,8 @@ main{
         align-items: center;
         flex-direction: column;
 
-        height: 300px;
-        width: 450px;
+        height: 350px;
+        width: 500px;
         margin: 0 auto;
         border-radius: 15px;
         
@@ -26,7 +26,10 @@ main{
     }
 
     .advice{
+        padding: 0 20px 0 20px;
         color: var(--light_cyan);
+        text-align: center;
+        
     }
 
     .divider{
@@ -43,7 +46,6 @@ main{
         align-items: center;
         justify-content: center;
         
-
         background: var(--neon_green);
         border: none;
 
@@ -51,6 +53,7 @@ main{
         height: 55px;
         border-radius: 50px;
         margin-bottom: -60px;
+        
 
         transition: box-shadow 0.2s;
 
@@ -65,6 +68,7 @@ main{
             width: 250px;
             
         }
+
     }
 }
 
