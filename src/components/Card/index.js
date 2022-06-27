@@ -32,13 +32,13 @@ export function Card(){
     <>
         <main>
             <div>
-                <p className='title'>
+                <h1 className='title'>
                     ADVICE #{advice.id}
-                </p>
+                </h1>
 
-                <p className='advice'>
+                <blockquote className='advice'>
                     "{advice.advice}"
-                </p>
+                </blockquote>
 
                 <div className='divider'></div>
 
