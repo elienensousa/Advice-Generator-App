@@ -1,0 +1,70 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0 15px 0 15px;
+    
+    div{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+
+        height: 300px;
+        width: 450px;
+        margin: 0 auto;
+        border-radius: 15px;
+        
+        background: var(--dark_grayish_blue);
+    }
+    .title{
+        color: var(--neon_green);
+        letter-spacing: 2px;
+        font-weight: 500;
+        font-size: 12px;
+    }
+
+    .advice{
+        color: var(--light_cyan);
+    }
+
+    .divider{
+        background-image: url('../../assets/pattern-divider-desktop.svg');
+        background-size: cover;
+        height: 12px;
+        width: 330px;
+        
+    }
+
+   
+    button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+
+        background: var(--neon_green);
+        border: none;
+
+        width: 55px;
+        height: 55px;
+        border-radius: 50px;
+        margin-bottom: -60px;
+
+        transition: box-shadow 0.2s;
+
+        &:hover{
+            box-shadow: 0 0 2rem var(--neon_green);
+        }
+    }
+    @media (max-width: 375px){
+        .divider{
+            background-image: url('../../assets/pattern-divider-mobile.svg');
+            height: 13px;
+            width: 250px;
+            
+        }
+    }
+}
+
