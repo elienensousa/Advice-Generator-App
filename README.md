@@ -50,7 +50,7 @@ Users should be able to:
 ### Useful resources
 
 - [Como fazer o fetch dos dados em React](https://www.freecodecamp.org/portuguese/news/como-fazer-o-fetch-dos-dados-em-react/)
-- [Modern API data-fetching methods in React](https://blog.logrocket.com/modern-api-data-fetching-methods-react/) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Modern API data-fetching methods in React](https://blog.logrocket.com/modern-api-data-fetching-methods-react/)
 
 
 
